@@ -2,6 +2,17 @@
 
 Ejercicios correspondiente a https://jj.github.io/IV/documentos/temas/Intro_concepto_y_soporte_fisico
 
+## Ejercicio 1
+
+Como servidor de referencia he tomado [HPE ProLiant DL360](https://www.pccomponentes.com/hpe-proliant-dl360-gen10-intel-xeon-silver-4214r-32gb).
+Con un precio de 2475 eruos.
+
+Para amortizarlo en 4 años tomamos el porcentaje de amortización de 25% que
+coincide con _618.75_ euros anuales. 1, y sobre todo los que todavía tengáis el hito 0
+
+Para amortizarlo en 7 años tenemos que tomar un porcentaje de amortización de
+del 14.28% lo que nos da un coste de amortización anual de _353.43_ euros.
+
 ## Ejercicio 2
 
 Para la comparación voy a usar
@@ -59,3 +70,12 @@ las flags ativadas en cada uno de los procesadores son
 
     ➜  ~ egrep '^flags.*(vmx|svm)' /proc/cpuinfo
     flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate sme ssbd sev ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 xsaves clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca
+
+En android 
+
+![](images/tmux.jpg)
+![](images/features.jpg)
+
+## Ejercicio 5
+
+Anotado
