@@ -1,0 +1,17 @@
+[package]
+name = "vercel-example"
+version = "2.0.0"
+authors = [ "Yábir García <yabirg@protonmail.com>" ]
+edition = "2018"
+
+[dependencies]
+http = "0.1"
+now_lambda = "*"
+
+[lib]
+name = "util"
+path = "_util.rs"
+
+[[bin]]
+name = "user"
+path = "/home/yabirgb/Documents/iv/IV-autoevaluacion/vercel-example/api/user.rs"
